@@ -8,7 +8,10 @@ function App() {
 
   return (
     <div>
-      App
+      <Navbar />
+      <Sidebar />
+      <Hero />
+      <Submenu />
     </div>
   )
 }
