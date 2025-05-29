@@ -4,8 +4,8 @@ import sublinks from './data.jsx';
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-    [isSidebarOpen, setIsSidebarOpen] = useState(true);
-    [isSubmenuOpen, setIsSubmenuOpen] = useState(true);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+    const [isSubmenuOpen, setIsSubmenuOpen] = useState(true);
 
     const openSidebar = () => {
         setIsSidebarOpen(true);
