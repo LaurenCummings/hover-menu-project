@@ -6,9 +6,17 @@ function Navbar() {
     const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
 
     return (
-        <div>
-            Navbar
-        </div>
+        <nav className="nav">
+            <div className="nav-center">
+                <div className="nav-header">
+                    <img src={logo} alt="stripe" />
+
+                </div>
+                <ul className="nav-links">
+
+                </ul>
+            </div>
+        </nav>
     )
 }
 
