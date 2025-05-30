@@ -1,3 +1,4 @@
+import '../css/Hero.css';
 import phoneImg from '../images/phone.svg';
 import { useGlobalContext } from '../Context';
 
