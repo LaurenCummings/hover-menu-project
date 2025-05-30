@@ -1,0 +1,43 @@
+.nav {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-center {
+    width: 90vw;
+    max-width: 1170px;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-btn {
+    font-size: 1rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    border-color: transparent;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.toggle-btn:hover {
+    background-color: rgb(97, 125, 152);
+}
+
+.nav-links {
+    display: none;
+}
+
+.signin-btn {
+    display: none;
+}
