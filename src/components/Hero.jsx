@@ -16,6 +16,9 @@ function Hero() {
                         payouts, and
                         manage their businesses online.
                     </p>
+                    <button className="btn">
+                        Start now
+                    </button>
                 </article>
                 <article className="hero-images">
                     <img src={phoneImg} className="phone-img" alt="phone" />
