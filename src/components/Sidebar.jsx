@@ -8,7 +8,7 @@ function Sidebar() {
 
     return (
         <aside className={`${isSidebarOpen ? 'sidebar-wrapper show' : 'sidebar-wrapper'}`}>
-            Sidebar
+            <div className="sidebar"></div>
         </aside>
     )
 }
