@@ -3,3 +3,19 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(241, 245, 248);
 }
+
+/* used in multiple components */
+.btn {
+    font-size: 1rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    background-color: rgb(97, 125, 152);
+}
