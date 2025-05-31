@@ -8,7 +8,11 @@ function Sidebar() {
 
     return (
         <aside className={`${isSidebarOpen ? 'sidebar-wrapper show' : 'sidebar-wrapper'}`}>
-            <div className="sidebar"></div>
+            <div className="sidebar">
+                <button className="close-btn" onClick={closeSidebar}>
+                    <FaTimes />
+                </button>
+            </div>
         </aside>
     )
 }
