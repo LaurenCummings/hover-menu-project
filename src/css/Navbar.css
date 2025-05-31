@@ -36,6 +36,7 @@
 
 .nav-links {
     display: none;
+    list-style-type: none;
 }
 
 .signin-btn {
