@@ -6,9 +6,9 @@ function Sidebar() {
     const { isSidebarOpen, closeSidebar } = useGlobalContext();
 
     return (
-        <div>
+        <aside className={`${isSidebarOpen ? 'sidebar-wrapper show' : 'sidebar-wrapper'}`}>
             Sidebar
-        </div>
+        </aside>
     )
 }
 
