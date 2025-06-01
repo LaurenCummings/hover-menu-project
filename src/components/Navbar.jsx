@@ -6,6 +6,11 @@ import { useGlobalContext } from '../Context';
 function Navbar() {
     const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
 
+    const displaySubmenu = (e) => {
+        console.log('hello world');
+        openSubmenu();
+    }
+
     return (
         <nav className="nav">
             <div className="nav-center">
