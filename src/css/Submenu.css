@@ -49,6 +49,7 @@
 
 .submenu h4 {
     margin-bottom: 1.5rem;
+    text-transform: capitalize;
 }
 
 .submenu-center a {
@@ -58,6 +59,7 @@
     text-transform: capitalize;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .submenu-center svg {
