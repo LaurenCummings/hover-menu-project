@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useGlobalContext } from '../Context';
 
 function Submenu() {
-    const { isSubmenuOpen, location } = useGlobalContext();
+    const { isSubmenuOpen, location, page } = useGlobalContext();
     const container = useRef(null);
 
     useEffect(() => {
